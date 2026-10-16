@@ -42,6 +42,8 @@ Network passphrase: `Test SDF Network ; September 2015`
 | Storage | AWS S3 |
 | Monitoring | Sentry, OpenTelemetry |
 
+> 📐 **System Architecture:** For an end-to-end component topology diagram, data flow sequences, and service boundary mappings, see the [Architecture Overview](docs/architecture.md).
+
 ## Project Structure
 
 ```
@@ -79,7 +81,7 @@ Network passphrase: `Test SDF Network ; September 2015`
 ├── helm/             # Helm charts
 ├── load-tests/       # k6 scenarios
 ├── scripts/          # Build, deploy and setup scripts
-├── docs/             # Backlog, implementation and maintenance notes
+├── docs/             # Architecture overview, backlog, implementation and maintenance notes
 └── .husky/           # Git hooks (TS check, secret scan, size limit)
 ```
 
